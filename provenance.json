@@ -1,0 +1,159 @@
+{
+ "component": "ai-proxy",
+ "cloudflare_script_name": "ai-proxy",
+ "version_number": 151,
+ "version_id": "9c7c213b-213d-4c39-a5a9-9fb9e12dc49a",
+ "deployed_utc": "2026-11-05T16:15:56.721341Z",
+ "compatibility_date": null,
+ "retrieved_utc": "2026-11-05T19:20:28.433148Z",
+ "retrieval_method": "GET /accounts/771ee2cc20f09248129114b7535b2cc9/workers/scripts/ai-proxy (multipart, part name=\"worker.js\")",
+ "account_id": "771ee2cc20f09248129114b7535b2cc9",
+ "bundle_sha256": "94a4bd21c0bbd628a4d20e8e0e69ec9c016be208bc6a2f90289411ca881f7f8a",
+ "bundle_bytes": 36104,
+ "workers_dev": {
+  "enabled": true,
+  "previews_enabled": true
+ },
+ "bindings": [
+  {
+   "name": "AI",
+   "project": "<catalog>",
+   "type": "ai"
+  },
+  {
+   "name": "AUDITS",
+   "namespace_id": "8c19918f71fd420d8115e022d3014b9f",
+   "type": "kv_namespace"
+  },
+  {
+   "environment": "production",
+   "name": "AURA",
+   "service": "aura",
+   "type": "service"
+  },
+  {
+   "bucket_name": "aura-files",
+   "name": "AURA_FILES",
+   "type": "r2_bucket"
+  },
+  {
+   "entrypoint": "MyDurableObject",
+   "environment": "production",
+   "name": "AVS",
+   "service": "avs",
+   "type": "service"
+  },
+  {
+   "class_name": "MyDurableObject",
+   "name": "AVS_DO",
+   "namespace_id": "ddd326b6143c4e9bb3e9c218c8864870",
+   "script_name": "avs",
+   "type": "durable_object_namespace"
+  },
+  {
+   "database_id": "5165d2ef-fba5-445e-94d4-5e6dc5bbe05c",
+   "id": "5165d2ef-fba5-445e-94d4-5e6dc5bbe05c",
+   "name": "CHAT_DB",
+   "type": "d1"
+  },
+  {
+   "name": "CONTEXT_STORE",
+   "namespace_id": "b78a25e9928e44b3ab0a3e9647a2ee33",
+   "type": "kv_namespace"
+  },
+  {
+   "entrypoint": "Chat",
+   "environment": "production",
+   "name": "JUSTICE",
+   "service": "justice",
+   "type": "service"
+  },
+  {
+   "name": "MASTER_TRUTHS",
+   "namespace_id": "904eff3af4c14f06964e4f651cce9573",
+   "type": "kv_namespace"
+  },
+  {
+   "entrypoint": "Sandbox",
+   "environment": "production",
+   "name": "MATRIXSBOX",
+   "service": "matrix",
+   "type": "service"
+  },
+  {
+   "entrypoint": "default",
+   "environment": "production",
+   "name": "MATRIX_SERVICE",
+   "service": "matrix",
+   "type": "service"
+  },
+  {
+   "name": "MEM",
+   "namespace_id": "4a9bfbffb4d440cba86badc508e2045a",
+   "type": "kv_namespace"
+  },
+  {
+   "entrypoint": "chatDO",
+   "environment": "production",
+   "name": "OG",
+   "service": "truthengine",
+   "type": "service"
+  },
+  {
+   "name": "OPENROUTER_API_KEY",
+   "type": "secret_text"
+  },
+  {
+   "name": "ORP",
+   "namespace_id": "145a30ed3f974dab983eb37d2a5a5a8f",
+   "type": "kv_namespace"
+  },
+  {
+   "name": "RATE_LIMITER",
+   "namespace_id": "111",
+   "simple": {
+    "limit": 120,
+    "period": 60
+   },
+   "type": "ratelimit"
+  },
+  {
+   "class_name": "SessionMemory",
+   "name": "SESSION_DO",
+   "namespace_id": "54c2b143f49c476d8b81fe248a1e47c3",
+   "script_name": "session",
+   "type": "durable_object_namespace"
+  },
+  {
+   "entrypoint": "SessionMemory",
+   "environment": "production",
+   "name": "SESSION_SERVICE",
+   "service": "session",
+   "type": "service"
+  },
+  {
+   "name": "TEP",
+   "secret_name": "TRUTH_ENGINE_PROMPT",
+   "store_id": "7073bd5852014f83875874ae3ff0817e",
+   "type": "secrets_store_secret"
+  },
+  {
+   "entrypoint": "default",
+   "environment": "production",
+   "name": "TRUTH",
+   "service": "truth",
+   "type": "service"
+  },
+  {
+   "bucket_name": "truth",
+   "name": "TRUTH_BUCKET",
+   "type": "r2_bucket"
+  }
+ ],
+ "version_history": "evidence/versions_ai-proxy.json (151 versions archived, latest=151)",
+ "evidence_archive": "evidence/bundles + evidence/manifest.json",
+ "sealed_archive": "evidence/sealed/incident-MSB26006196",
+ "sealed_archive_digest": "74148457b1defa69caed0f92a59e18d4fb453358153f113bf76ba16dd270e79b",
+ "classification": "recovered production artifact - NOT a clean or reproducible source baseline",
+ "production_changes_at_capture": "none (read-only retrieval)"
+}
