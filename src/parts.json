@@ -1,0 +1,342 @@
+{
+ "component": "ai-proxy",
+ "derived_from": "bundle/worker.js 94a4bd21c0bbd628a4d20e8e0e69ec9c016be208bc6a2f90289411ca881f7f8a",
+ "parts": [
+  {
+   "file": "000-__defProp.js",
+   "start_line": 1,
+   "end_line": 1,
+   "bytes": 39,
+   "sha256": "81874a21f1cced9efaff3a87f11739d0dddeaf3b1a5082b31da6d2110ef2d95f"
+  },
+  {
+   "file": "001-__name.js",
+   "start_line": 2,
+   "end_line": 3,
+   "bytes": 91,
+   "sha256": "230b8b22b74b3b090761ab075c29ae0478985d90e29c8afdfca27e3956a2084f"
+  },
+  {
+   "file": "002-preamble.js",
+   "start_line": 4,
+   "end_line": 4,
+   "bytes": 17,
+   "sha256": "edb39066576de2331de8a10bd0948cc9b588c68bc41b14c37d13b12351be5c5c"
+  },
+  {
+   "file": "003-CONFIG.js",
+   "start_line": 5,
+   "end_line": 21,
+   "bytes": 596,
+   "sha256": "09faba22b6715cca2916705320f72a18de3c4bd1a414e724b6b9101dd3e2c802"
+  },
+  {
+   "file": "004-CORS.js",
+   "start_line": 22,
+   "end_line": 27,
+   "bytes": 253,
+   "sha256": "30cb96d2285308bdfd98b1593a977be6e5bf28084a99763236ed2d9545a7cdb7"
+  },
+  {
+   "file": "005-AUDIT_SYSTEM_PROMPT.js",
+   "start_line": 28,
+   "end_line": 28,
+   "bytes": 402,
+   "sha256": "48d99f3b6e28a29fccc8c6734197e1ca3c1cfcb7b56be2120748f42cdfe4b94f"
+  },
+  {
+   "file": "006-json.js",
+   "start_line": 29,
+   "end_line": 35,
+   "bytes": 185,
+   "sha256": "3b2f57b5bb24524747b390f7484b0c1966db9df48da09197eb2b355cd4dfcf9f"
+  },
+  {
+   "file": "007-fail.js",
+   "start_line": 36,
+   "end_line": 39,
+   "bytes": 117,
+   "sha256": "7248815bebd8eb415f260967bcb02ff08c12d078925438ade499b128592052c0"
+  },
+  {
+   "file": "008-secretOk.js",
+   "start_line": 40,
+   "end_line": 50,
+   "bytes": 380,
+   "sha256": "6edfcd521bb9f9c8455f148f2a845f381dca2c35b7ecad60465fb69e5c40e3b9"
+  },
+  {
+   "file": "009-listKeys.js",
+   "start_line": 51,
+   "end_line": 66,
+   "bytes": 416,
+   "sha256": "cefb9863caaf2caf58f0b44e1a5f295c9cdb4453d5fe9a51262f74aad086103b"
+  },
+  {
+   "file": "010-readJson.js",
+   "start_line": 67,
+   "end_line": 73,
+   "bytes": 174,
+   "sha256": "5c72aaf39530fcecef187f1c83add36c2155f1682e52b94090f6eb3aebc4e386"
+  },
+  {
+   "file": "011-safeParse.js",
+   "start_line": 74,
+   "end_line": 82,
+   "bytes": 154,
+   "sha256": "4140153dc28a7cacd786471a710c3dcfb4cd4f50eba8051a7c61237275fb7f36"
+  },
+  {
+   "file": "012-tokens.js",
+   "start_line": 83,
+   "end_line": 86,
+   "bytes": 178,
+   "sha256": "04cc7fbbf5ed0cf1f8b2be92491e9e270d026e64863460b38928ac32063b99ca"
+  },
+  {
+   "file": "013-score.js",
+   "start_line": 87,
+   "end_line": 94,
+   "bytes": 259,
+   "sha256": "4fe2509cae37dd43670a6ff1dda41e57825c7a8f41b6fbff4b34c1f2c51d7aff"
+  },
+  {
+   "file": "014-entryText.js",
+   "start_line": 95,
+   "end_line": 100,
+   "bytes": 272,
+   "sha256": "2333a3ace91d7f0d8a0077edce820f0afeb7ebf766fc7c52bd0de779a2451e82"
+  },
+  {
+   "file": "015-kbCache.js",
+   "start_line": 101,
+   "end_line": 101,
+   "bytes": 39,
+   "sha256": "c4b615a3a739a5e5bcd4b5b1dd99b87b818acdaafe19471ceb9ffdd7a5be1b23"
+  },
+  {
+   "file": "016-loadLayer.js",
+   "start_line": 102,
+   "end_line": 120,
+   "bytes": 642,
+   "sha256": "76de61a53bc3e660dc8d02912b90e925e78690df767b6e7b8d88212276b676c5"
+  },
+  {
+   "file": "017-knowledgeBase.js",
+   "start_line": 121,
+   "end_line": 133,
+   "bytes": 588,
+   "sha256": "626fce6b46de6e990165b34cf55783079eb0ee914b12d20b97b5e3fa5749ed78"
+  },
+  {
+   "file": "018-retrieve.js",
+   "start_line": 134,
+   "end_line": 148,
+   "bytes": 540,
+   "sha256": "3d32359f871cfa91633cc216d99ed19204dbdf00bebc5774b73802797bd0bd5d"
+  },
+  {
+   "file": "019-contextBlock.js",
+   "start_line": 149,
+   "end_line": 160,
+   "bytes": 464,
+   "sha256": "2f794c1f46b5952f714d7b47ade616062bb16f332dea1b20357883941b52a0fb"
+  },
+  {
+   "file": "020-aiText.js",
+   "start_line": 161,
+   "end_line": 172,
+   "bytes": 593,
+   "sha256": "c564c1e08dc2eb449477db3eef209b2263697e6b6a1b50f69075d0b8b7d8f6cc"
+  },
+  {
+   "file": "021-orText.js",
+   "start_line": 173,
+   "end_line": 197,
+   "bytes": 956,
+   "sha256": "2e4862f87966fd82ec3c09ad0afb2690619240c61ce56cf1a1e253dd2502c3ec"
+  },
+  {
+   "file": "022-mindText.js",
+   "start_line": 198,
+   "end_line": 211,
+   "bytes": 603,
+   "sha256": "401c2d15241ea4a9aa65db208656ab8176ff4758930c0fa79b97bbcacfc7e540"
+  },
+  {
+   "file": "023-complete.js",
+   "start_line": 212,
+   "end_line": 223,
+   "bytes": 315,
+   "sha256": "e587c25b3ee302f389ac8a6966c092b91d215826d7eeebb43a4942b85b934aeb"
+  },
+  {
+   "file": "024-toOpenAISSE.js",
+   "start_line": 224,
+   "end_line": 260,
+   "bytes": 1143,
+   "sha256": "38bf3e561952f538aebb957c687996e43a3f983ec793585f0a38d4a8e912048a"
+  },
+  {
+   "file": "025-streamChat.js",
+   "start_line": 261,
+   "end_line": 284,
+   "bytes": 911,
+   "sha256": "0f20338b58c1349fdd855af93122fa0c172325d71dce76bf418fc92fdc3f3c51"
+  },
+  {
+   "file": "026-sse.js",
+   "start_line": 285,
+   "end_line": 290,
+   "bytes": 170,
+   "sha256": "f06f697523c761821545c3fe6fa7b065e3301c1007c15a41217e2635da7ce50f"
+  },
+  {
+   "file": "027-embed.js",
+   "start_line": 291,
+   "end_line": 320,
+   "bytes": 1005,
+   "sha256": "fe3f3552411831927f315c6a273433c7cbb2f00cbe54154942ed4613120da0b5"
+  },
+  {
+   "file": "028-elevatedIndex.js",
+   "start_line": 321,
+   "end_line": 324,
+   "bytes": 136,
+   "sha256": "b784b65b263dc4ea0affb6411110abb7d52a424174f3ff1f2d1dd8175b5ffd5c"
+  },
+  {
+   "file": "029-putKnowledge.js",
+   "start_line": 325,
+   "end_line": 350,
+   "bytes": 1135,
+   "sha256": "de67c44c2539d14e84b43aa8ac8ccc36ffdbd57e9991dce707f75dbfa476c7ae"
+  },
+  {
+   "file": "030-learnFromAnswer.js",
+   "start_line": 351,
+   "end_line": 373,
+   "bytes": 620,
+   "sha256": "6c188c11ad085dab4f21336e5cb09b40a2526843c1e785721a93e008630a2ea3"
+  },
+  {
+   "file": "031-storeAudit.js",
+   "start_line": 374,
+   "end_line": 388,
+   "bytes": 478,
+   "sha256": "909cc9fe4cef87ee1836cfee34141d8b30218d38c5452c94fd45ce93f451343f"
+  },
+  {
+   "file": "032-auditMarkdown.js",
+   "start_line": 389,
+   "end_line": 401,
+   "bytes": 280,
+   "sha256": "fefc825b45b2ce0e09d3bf3dd7998d47e36a74180c41f8b29817db9571bc9cf9"
+  },
+  {
+   "file": "033-pushAuditCard.js",
+   "start_line": 402,
+   "end_line": 421,
+   "bytes": 630,
+   "sha256": "9481f4d806bfb0c9a39a65f36772319e0978fde50e043b0a447e898058d3282a"
+  },
+  {
+   "file": "034-pushProvisional.js",
+   "start_line": 422,
+   "end_line": 446,
+   "bytes": 1007,
+   "sha256": "103038b9de9a4700a1ee17e6345f6a51463bf3bf8cc000f33e7918f411258193"
+  },
+  {
+   "file": "035-handleChat.js",
+   "start_line": 447,
+   "end_line": 485,
+   "bytes": 1492,
+   "sha256": "9727a45fbfbeb22d6adf8e78a0eac43d43324e57924b919a88c118195f9d09ff"
+  },
+  {
+   "file": "036-handleCandidate.js",
+   "start_line": 486,
+   "end_line": 530,
+   "bytes": 2017,
+   "sha256": "6ba28e6068f0ed8fea7f02b457a5cb591f871f186d1202d3eebb3095b8af10cc"
+  },
+  {
+   "file": "037-extractJsonArray.js",
+   "start_line": 531,
+   "end_line": 544,
+   "bytes": 450,
+   "sha256": "0907a10a1cef50032cf6dfba91e0917357059caf57b3974fdaebe344cd66264c"
+  },
+  {
+   "file": "038-handleGenerate.js",
+   "start_line": 545,
+   "end_line": 588,
+   "bytes": 1466,
+   "sha256": "073eef2543b4f4472befb603cd7c4b2e01b805e0aa7591a552976bf1eb243875"
+  },
+  {
+   "file": "039-handleCode.js",
+   "start_line": 589,
+   "end_line": 609,
+   "bytes": 783,
+   "sha256": "c7a00761e524948118de26ddb92501eb1ab54cdc7bfdd9f9c261640b228140d3"
+  },
+  {
+   "file": "040-handleAudit.js",
+   "start_line": 610,
+   "end_line": 650,
+   "bytes": 1483,
+   "sha256": "98ea6aecc90eb5cc8ae54d475b80a81ad60d2de8636d7466f4f7f540b6c6c190"
+  },
+  {
+   "file": "041-handleAuditStore.js",
+   "start_line": 651,
+   "end_line": 704,
+   "bytes": 1908,
+   "sha256": "3db1425d5ed50959a04bbe401a7b513e6e8090a7ac0d139664e8d0995ad3be23"
+  },
+  {
+   "file": "042-PAYMENT_INFO.js",
+   "start_line": 705,
+   "end_line": 720,
+   "bytes": 519,
+   "sha256": "feb9a90f7359b5955e19009f7ebdb667877f667597dfe2200813346ddfb4b93e"
+  },
+  {
+   "file": "043-handlePipeline.js",
+   "start_line": 721,
+   "end_line": 762,
+   "bytes": 1685,
+   "sha256": "c633956b0598e88d9b1bb94460be0800179f5a80217fdc52f7395f748771c949"
+  },
+  {
+   "file": "044-handleAdmin.js",
+   "start_line": 763,
+   "end_line": 824,
+   "bytes": 2915,
+   "sha256": "7e42b3eef6fb05a4988e8bf2aaa328254f5bbf21e45afb4ce8a21dd30f496d1e"
+  },
+  {
+   "file": "045-bindingReport.js",
+   "start_line": 825,
+   "end_line": 840,
+   "bytes": 402,
+   "sha256": "2fcb84a8fdb9e534188dfcdef64ea05e78fddd567b2761d0ee1060ff76570315"
+  },
+  {
+   "file": "046-worker_default.js",
+   "start_line": 841,
+   "end_line": 945,
+   "bytes": 5122,
+   "sha256": "fd6a1d90087eafec8b0879f61e5a63007e03b322cd5db2e0ca1cf84a9dbe4530"
+  },
+  {
+   "file": "047-preamble.js",
+   "start_line": 946,
+   "end_line": 949,
+   "bytes": 74,
+   "sha256": "2dec108891463ec64d0df724ac2f26fb2ee5c86045703856062e043a88d6b206"
+  }
+ ]
+}
