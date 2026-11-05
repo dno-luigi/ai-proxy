@@ -4,7 +4,7 @@
  "version_number": 151,
  "version_id": "9c7c213b-213d-4c39-a5a9-9fb9e12dc49a",
  "deployed_utc": "2026-11-05T16:15:56.721341Z",
- "compatibility_date": null,
+ "compatibility_date": "2025-04-15",
  "retrieved_utc": "2026-11-05T19:20:28.433148Z",
  "retrieval_method": "GET /accounts/771ee2cc20f09248129114b7535b2cc9/workers/scripts/ai-proxy (multipart, part name=\"worker.js\")",
  "account_id": "771ee2cc20f09248129114b7535b2cc9",
@@ -155,5 +155,6 @@
  "sealed_archive": "evidence/sealed/incident-MSB26006196",
  "sealed_archive_digest": "74148457b1defa69caed0f92a59e18d4fb453358153f113bf76ba16dd270e79b",
  "classification": "recovered production artifact - NOT a clean or reproducible source baseline",
- "production_changes_at_capture": "none (read-only retrieval)"
+ "production_changes_at_capture": "none (read-only retrieval)",
+ "compatibility_date_source": "GET /workers/scripts/ai-proxy/settings"
 }
